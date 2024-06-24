@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+
+rows = +prompt("Enter no The rows: ")
+count=1
+for(i=1;i<=rows;i++){
+   s = " "
+    for(j=1;j<=i;j++){
+        s = s + count + " "
+        count++
+    }
+    console.log(s);
+}
+
+console.log(" ")
+rows = +prompt("Enter No of Rows: ")
+for(i=1;i<=rows;i++){
+    m= " ",c = "" 
+    for(j=1; j<=i ;j++){
+        m =  m+ String.fromCharCode(c+97)+ " " 
+        c++
+    }
+    console.log(m);
+}
+
+console.log(" ")
+
+rows = +prompt("Enter No of Rows: ")
+for(i=0; i<=rows-1 ;i++){
+b= " ",count = 0
+    for(j=0; j<=i ;j++){
+        b =  b + String.fromCharCode(i+97)+ " "
+    }
+    count++
+    console.log(b);
+     
+}
+
+
+    </script>
+</body>
+</html>
